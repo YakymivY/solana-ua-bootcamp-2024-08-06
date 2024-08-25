@@ -7,3 +7,5 @@ function generateKeypair(): void {
     console.log("Public key:", keypair.publicKey.toBase58());
     console.log("Private key:", keypair.secretKey);
 }
+
+generateKeypair()
